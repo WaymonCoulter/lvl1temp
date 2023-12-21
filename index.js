@@ -4,8 +4,8 @@ const now = new Date();
 
 console.log(now.toLocaleString())
 
-function flipCoin() {
-  return Math.floor(Math.random() * 2) === 1 ? "tails" : "heads";
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
 }
 
-console.log(flipCoin())
+console.log(getRandomInt(2) === 1 ? "tails" : "heads")

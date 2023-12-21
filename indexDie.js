@@ -1,11 +1,5 @@
-console.log("!index.js")
-
-const now = new Date();
-
-console.log(now.toLocaleString())
-
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
+function rollDie() {
+  return Math.floor(Math.random() * 6) + 1;
 }
 
-console.log(getRandomInt(2) === 1 ? "tails" : "heads")
+console.log(rollDie())
