@@ -9,3 +9,5 @@ function getRandomInt(max) {
 }
 
 console.log(getRandomInt(2) === 1 ? "tails" : "heads")
+
+console.log(getRandomInt(6) + 1)
