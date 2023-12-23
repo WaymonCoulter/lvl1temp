@@ -1,6 +1,7 @@
 # lvl1temp
 Basic html and js with .gitignore
 
-The index.html file on load have index.js announce itself, date, and time
+Index.html upon loading will announce index.js, date, time,
+heads or tails, and a number from 1-6
 
 We still have big plans for this file!

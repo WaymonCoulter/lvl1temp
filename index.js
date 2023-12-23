@@ -4,6 +4,10 @@ const now = new Date();
 
 console.log(now.toLocaleString())
 
-console.log("there once was a main from Gilnayith")
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
 
-console.log(Math.random)
+console.log(getRandomInt(2) === 1 ? "tails" : "heads")
+
+console.log(getRandomInt(6) + 1)
